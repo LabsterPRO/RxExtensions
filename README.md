@@ -137,7 +137,7 @@ Author: [Artem Smirnov](https://github.com/RankoR) at [Labster.PRO](https://gith
 ## License
 
 ```
-Copyright (C) 2020 Artem Smirnov @ Labster.PRO
+Copyright (C) 2021 Artem Smirnov @ Labster.PRO
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
