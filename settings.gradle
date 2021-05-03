@@ -1,0 +1,3 @@
+include ':rxextensions'
+include ':app'
+rootProject.name = "RxExtensions"
