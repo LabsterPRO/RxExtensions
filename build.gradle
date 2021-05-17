@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        kotlinVersion = '1.4.32'
+        kotlinVersion = '1.5.0'
 
         rxVersion = '3.0.12'
         rxKotlinVersion = '3.0.1'
@@ -19,16 +19,19 @@ buildscript {
 
         def versionBuild = 1
 
-        final buildDate = new Date().format('yyyy_MM_dd_HHmm')
-
-        globalVersionName = "$versionMajor.$versionMinor.$versionPatch-$buildDate"
+        globalVersionName = "$versionMajor.$versionMinor.$versionPatch"
         globalVersionCode = 1_000_000_000 + 1000 * (10000 * versionMajor + 100 * versionMinor + versionPatch) + versionBuild
+
+        PUBLISH_GROUP_ID = 'pro.labster'
+        PUBLISH_ARTIFACT_ID = 'rxextensions'
+        PUBLISH_VERSION = globalVersionName
     }
 
     repositories {
         google()
         mavenCentral()
     }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
@@ -39,9 +42,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }

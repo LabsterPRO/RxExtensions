@@ -1,5 +1,7 @@
 # RxExtensions
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/pro.labster/rxextensions/badge.svg)](https://maven-badges.herokuapp.com/maven-central/pro.labster/rxextensions)
+
 RxExtensions is a library with different useful RxJava3 extensions.
 
 ## Requirements
