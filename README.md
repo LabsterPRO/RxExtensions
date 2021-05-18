@@ -40,6 +40,7 @@ These extensions are available for:
 - `Maybe`
 - `Observable`
 - `Flowable`
+- `Completable`
 
 ## Emitters extensions
 
@@ -116,8 +117,7 @@ These extensions are available for:
 Usage example:
 
 ```kotlin
-
- import java.io.IOExceptionSingle
+Single
   .create { 
       // ...
   }
