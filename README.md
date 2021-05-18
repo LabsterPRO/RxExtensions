@@ -134,7 +134,7 @@ Please, report any issues [here](https://github.com/LabsterPRO/RxExtensions/andr
 
 ## Credits
 
-Author: [Artem Smirnov](https://github.com/RankoR) at [Labster.PRO](https://github.com/LabsterPRO)
+Author: [Artem Smirnov](https://smirnov.page) at [Labster.PRO](https://labster.pro)
 
 ## License
 
