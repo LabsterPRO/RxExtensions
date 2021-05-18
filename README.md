@@ -14,7 +14,7 @@ RxExtensions is a library with different useful RxJava3 extensions.
 Add dependency to your module's (usually `app/build.gradle`) `build.gradle` and sync:
 
 ```groovy
-implementation 'pro.labster.rxextensions:(insert latest version)'
+implementation 'pro.labster:rxextensions:(insert latest version)'
 ```
 
 ## Set up
